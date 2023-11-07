@@ -1,8 +1,9 @@
 package com.example.resource;
 
-public class RequestAmount { // 入金額、出金額のリクエストと残高をレスポンスするときに利用するBeanクラス
+public class RequestAmount { // 入金額、出金額のリクエストをするBeanクラス
 
-    private Integer amount;
+    private Integer amount; // HTMLのformのinput name = amonut とかの情報になるはず
+    
 
     public Integer getAmount() {
         return this.amount;
